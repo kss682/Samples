@@ -83,5 +83,11 @@ kafka-clients = { module = "org.apache.kafka:kafka-clients", version.ref = "kafk
 testcontainers-kafka = { module = "org.testcontainers:kafka", version.ref = "testcontainers" }
 testcontainers-junit = { module = "org.testcontainers:junit-jupiter", version.ref = "testcontainers" }
 
+postgresql = {module = "org.postgresql:postgresql", version = "42.7.3" }
+edc-transaction-local = { module = "org.eclipse.edc:transaction-local", version = "0.7.1" }
+edc-transaction-datasource-spi = { module = "org.eclipse.edc:transaction-datasource-spi", version = "0.7.1"}
+edc-sql-apache-commons = { module = "org.eclipse.edc:sql-pool-apache-commons", version.ref = "edc" }
+edc-control-plane-sql = { module = "org.eclipse.edc:control-plane-sql", version.ref = "edc" }
+
 [plugins]
 shadow = { id = "com.github.johnrengelman.shadow", version = "8.1.1" }

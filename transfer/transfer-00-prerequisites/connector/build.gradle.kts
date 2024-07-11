@@ -43,6 +43,13 @@ dependencies {
     implementation(libs.edc.data.plane.public.api)
     implementation(libs.edc.data.plane.core)
     implementation(libs.edc.data.plane.http)
+    
+
+	implementation(libs.edc.control.plane.sql)
+	implementation(libs.edc.sql.apache.commons)
+	implementation(libs.postgresql)
+	implementation(libs.edc.transaction.local)
+	implementation(libs.edc.transaction.datasource.spi)   
 }
 
 application {
